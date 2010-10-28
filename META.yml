@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               MojoX-Session-Store-Libmemcached
-version:            0.15
+version:            0.16
 abstract:           ~
 author:
     - Daniel Mascarenhas <daniel.mts@gmail.com>
@@ -15,7 +15,7 @@ requires:
     Memcached::libmemcached:  0.4402
     MIME::Base64:         0
     Mojolicious:          0.999931
-    MojoX::Session:       0.20
+    MojoX::Session:       0.21
     Storable:             0
     Test::More:           0
 no_index:

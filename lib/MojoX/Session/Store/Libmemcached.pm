@@ -1,5 +1,5 @@
 package MojoX::Session::Store::Libmemcached;
-$MojoX::Session::Store::Libmemcached::VERSION = 0.15;
+$MojoX::Session::Store::Libmemcached::VERSION = 0.16;
 
 use strict;
 use warnings;
@@ -19,8 +19,6 @@ sub new {
 
     my $self = $class->SUPER::new(@_);
     bless $self, $class;
-
-    use Data::Dumper;
 
     my $servers = $self->servers;
 
